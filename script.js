@@ -6,7 +6,6 @@ const cancelLog = "Отменено пользователем";
 const wrongLog = "Доступ запрещен. Неверный логин!";
 const wrongPass = "Доступ запрещен. Неверный пароль!";
 const greet = "Добро пожаловать!";
-
 const logInput = prompt("Пожалуйста, введите логин");
 if (logInput === null) {
   alert((massege = cancelLog));
